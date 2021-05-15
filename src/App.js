@@ -1,17 +1,14 @@
-//import logo from './logo.svg';
 import './App.css';
-import { Navbar ,NavbarBrand } from 'react-bootstrap';
-
+import Header from './components/Header';
+import Home from './components/Home';
 function App() {
   return (
+    
     <div className="App">
-    <Navbar bg="dark" variant="dark">
-    <div className="container">
-            <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
-          </div>
-    </Navbar>
+      <Home/>
     </div>
-  );
+  
+     );
 }
 
 export default App;
