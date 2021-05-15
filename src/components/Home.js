@@ -36,6 +36,21 @@ function Home() {
                 rbtnt="inventory"
                 />
 
+                <Section
+                title="Lowest Cost Solar Panels"
+                description= "Money back guarantee"
+                backgroundImg="/images/solar-panel.jpg"
+                lbtnt="order now "
+                rbtnt="Learn More"
+                />
+                <Section
+                title="Accesories"
+                description= ""
+                backgroundImg="/images/accessories.jpg"
+                lbtnt="order now "
+                                />
+
+
    
         </Container>
     )
